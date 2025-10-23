@@ -81,25 +81,3 @@ function instaAppOpen() {
   );
 }
 
-// ---------------- Formulário de Contato ----------------
-const contactForm = document.getElementById("contact-form");
-
-if (contactForm) {
-  contactForm.addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    const name = contactForm.name.value.trim();
-    const email = contactForm.email.value.trim();
-    const message = contactForm.message.value.trim();
-
-    if (!name || !email || !message) {
-      alert("Por favor, preencha todos os campos.");
-      return;
-    }
-
-    // Aqui você pode integrar com API, email ou WhatsApp
-    alert(`Obrigado, ${name}! Sua mensagem foi enviada.`);
-
-    contactForm.reset();
-  });
-}
