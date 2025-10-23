@@ -211,61 +211,58 @@
 
         <div class="max-w-3xl mx-auto">
           <form
-            id="contact-form"
-            action="https://formsubmit.co/glr.digitalbusiness@gmail.com"
-            method="POST"
-            class="bg-indigo-950 p-10 rounded-3xl shadow-2xl space-y-6"
-          >
-            <div>
-              <label for="name" class="block mb-2 text-gray-300 font-semibold"
-                >Nome</label
-              >
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                class="w-full px-5 py-3 rounded-xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner"
-              />
-            </div>
+  id="contact-form"
+  action="https://formsubmit.co/glr.digitalbusiness@gmail.com"
+  method="POST"
+  class="bg-indigo-950 p-10 rounded-3xl shadow-2xl space-y-6"
+>
+  <input type="hidden" name="_subject" value="Nova mensagem do site GLR Digital">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://seudominio.com/obrigado.html">
 
-            <div>
-              <label for="email" class="block mb-2 text-gray-300 font-semibold"
-                >Email</label
-              >
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                class="w-full px-5 py-3 rounded-xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner"
-              />
-            </div>
+  <div>
+    <label for="name" class="block mb-2 text-gray-300 font-semibold">Nome</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      required
+      class="w-full px-5 py-3 rounded-xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner"
+    />
+  </div>
 
-            <div>
-              <label
-                for="message"
-                class="block mb-2 text-gray-300 font-semibold"
-                >Mensagem</label
-              >
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                required
-                class="w-full px-5 py-3 rounded-xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner resize-none"
-              ></textarea>
-            </div>
+  <div>
+    <label for="email" class="block mb-2 text-gray-300 font-semibold">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      required
+      class="w-full px-5 py-3 rounded-xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner"
+    />
+  </div>
 
-            <div class="text-center">
-              <button
-                type="submit"
-                class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105"
-              >
-                Enviar
-              </button>
-            </div>
-          </form>
+  <div>
+    <label for="message" class="block mb-2 text-gray-300 font-semibold">Mensagem</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="6"
+      required
+      class="w-full px-5 py-3 rounded-xl text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-inner resize-none"
+    ></textarea>
+  </div>
+
+  <div class="text-center">
+    <button
+      type="submit"
+      class="bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition-all duration-500 ease-in-out transform hover:scale-105"
+    >
+      Enviar
+    </button>
+  </div>
+</form>
+
         </div>
       </section>
 
