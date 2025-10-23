@@ -76,7 +76,7 @@ function whatsAppOpen() {
 // ---------------- Abrir Instagram ----------------
 function instaAppOpen() {
   window.open(
-    "https://www.instagram.com/bussiness_digital_nr?igsh=MWhmdGg5MXZtYWdldQ%3D%3D",
+    "https://www.instagram.com/digital.glrbusiness?igsh=YnBhcWF6eGhpZzlp",
     "_blank"
   );
 }
